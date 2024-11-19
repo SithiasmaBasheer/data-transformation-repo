@@ -1,0 +1,18 @@
+# Data Transformation Project
+
+## Description
+This project demonstrates how to process and transform JSON Lines files by:
+- Removing Personally Identifiable Information (PII)
+- Extracting domains from email addresses
+- Stores the transformed result in a new file
+
+## Structure
+- `src/transform.py`: Contains the data transformation logic.
+- `tests/test_transform.py`: Unit tests for the transformation.
+
+## Run the transformation Script
+- Update the input_dir and output_dir values in src/transform.py to your folder path if required.
+- Execute the transformation script in terminal using python3 src/transform.py 
+- Run tests using unittest: python3 -m unittest discover tests
+- Transformed files will be saved in the specified output directory "data-exports/TPCDS_SF10TCL/transformed/"
+

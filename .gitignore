@@ -1,0 +1,14 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# IDE/editor configuration files
+.vscode/
+
+# Transformed files
+data-exports/TPCDS_SF10TCL/transformed/
