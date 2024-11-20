@@ -9,6 +9,8 @@ This project demonstrates how to process and transform JSON Lines files by:
 ## Structure
 - `src/transform.py`: Contains the data transformation logic.
 - `tests/test_transform.py`: Unit tests for the transformation.
+- `data-exports/TPCDS_SF10TCL`: Source data used for transformation. 
+-  `sql/` : folder contains sql files used for explaining loading statergy.
 
 ## Run the transformation Script
 - Update the input_dir and output_dir values in src/transform.py to your folder path if required.
