@@ -12,3 +12,4 @@ venv/
 
 # Transformed files
 data-exports/TPCDS_SF10TCL/transformed/
+.DS_Store
